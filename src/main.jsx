@@ -1,3 +1,10 @@
+import memory1 from "./assets/memory1.jpg";
+import memory2 from "./assets/memory2.jpg";
+import memory3 from "./assets/memory3.jpg";
+import memory4 from "./assets/memory4.png";
+import memory5 from "./assets/memory5.jpg";
+import memory6 from "./assets/memory6.jpg";
+import memory7 from "./assets/memory7.jpg";
 import React, { useState } from "react";
 import { createRoot } from "react-dom/client";
 import { motion, AnimatePresence } from "framer-motion";
@@ -5,13 +12,13 @@ import { Heart, Sparkles, Gift, Camera, Cake, Star, ArrowDown, X } from "lucide-
 import "./styles.css";
 
 const photos = [
-  "/src/assets/memory1.jpg",
-  "/src/assets/memory2.jpg",
-  "/src/assets/memory3.jpg",
-  "/src/assets/memory4.png",
-  "/src/assets/memory5.jpg",
-  "/src/assets/memory6.jpg",
-  "/src/assets/memory7.jpg",
+  memory1,
+  memory2,
+  memory3,
+  memory4,
+  memory5,
+  memory6,
+  memory7,
 ];
 
 const pop = {
